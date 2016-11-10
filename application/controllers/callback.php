@@ -12,9 +12,9 @@ class Callback extends CI_Controller
 	{
 	
 
-     $jsonData = file_get_contents("http://localhost/file/coinbase.json");
-	 //  $jsonData = file_get_contents('php://input');
-	    $data = json_decode($jsonData, true);
+     // $jsonData = file_get_contents("http://localhost/file/coinbase.json");
+	  $jsonData = file_get_contents('php://input');
+	   $data = json_decode($jsonData, true);
 
     $waktu=date('Y-m-d');
     $w=explode("-",$waktu);

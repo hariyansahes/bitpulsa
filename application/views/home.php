@@ -14,19 +14,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-<link href="<?php echo base_url();?>/web/css/bootstrap.css" rel='stylesheet' type='text/css' />
-  <link href="<?php echo base_url();?>/web/css/bootstrap.min.css" rel="stylesheet">
+<link href="/web/css/bootstrap.css" rel='stylesheet' type='text/css' />
+  <link href="/web/css/bootstrap.min.css" rel="stylesheet">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <!-- Custom Theme files -->
-<link href="<?php echo base_url();?>/web/css/style.css" rel='stylesheet' type='text/css' />
+<link href="/web/css/style.css" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
 <!--webfont-->
-<script type="text/javascript" src="<?php echo base_url();?>/web/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/web/js/jquery-1.11.1.min.js"></script>
 <!--webfont-->
 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 <!-- Add fancyBox main JS and CSS files -->
-<script src="<?php echo base_url();?>/web/js/jquery.magnific-popup.js" type="text/javascript"></script>
-<link href="<?php echo base_url();?>/web/css/popup.css" rel="stylesheet" type="text/css">
+<script src="/web/js/jquery.magnific-popup.js" type="text/javascript"></script>
+<link href="/web/css/popup.css" rel="stylesheet" type="text/css">
 		<script>
 			$(document).ready(function() {
 				$('.popup-with-zoom-anim').magnificPopup({
@@ -43,8 +43,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		});
 		</script>
 <!--Animation-->
-<script src="<?php echo base_url();?>/web/js/wow.min.js"></script>
-<link href="<?php echo base_url();?>/web/css/animate.css" rel='stylesheet' type='text/css' />
+<script src="/web/js/wow.min.js"></script>
+<link href="/web/css/animate.css" rel='stylesheet' type='text/css' />
 <script>
 	new WOW().init();
 </script>
@@ -62,7 +62,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
       	
 	      <div class="header-left">
 					 <div class="logo wow bounceInDown" data-wow-delay="0.4s">
-						<a href="index.html"><img src="<?php echo base_url();?>/web/images/logo2.png" alt=""/></a>
+						<a href="index.html"><img src="/web/images/logo2.png" alt=""/></a>
 					 </div>
 					 <div class="menu">
 						  <a class="toggleMenu" href="#"><img src="images/nav.png" alt="" /></a>
@@ -72,7 +72,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						    	<li><a href="pricing.html">Contact Us</a></li>
 						    	<div class="clearfix"></div>
 							</ul>
-							<script type="text/javascript" src="<?php echo base_url();?>/web/js/responsive-nav.js"></script>
+							<script type="text/javascript" src="/web/js/responsive-nav.js"></script>
 				    </div>
 				    <div class="clearfix"></div>
 	      </div>
@@ -98,14 +98,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
      <div class="content_top">
      	<div class="container">
 		   <ul class="clients wow fadeInUpBig" data-wow-delay="0.4s">
-				<li><img src="<?php echo base_url();?>/web/images/indosat.png"  class="img-responsive" alt=""/></li>
+				<li><img src="/web/images/indosat.png"  class="img-responsive" alt=""/></li>
 				
-				<li><img src="<?php echo base_url();?>/web/images/telkomsel.jpg" class="img-responsive" alt=""/></li>
+				<li><img src="/web/images/telkomsel.jpg" class="img-responsive" alt=""/></li>
 				
-				<li><img src="<?php echo base_url();?>/web/images/smartfren.jpeg" class="img-responsive" alt=""/></li>
-				<li><img src="<?php echo base_url();?>/web/images/esia.jpg" class="img-responsive" alt=""/></li>
-				<li><img src="<?php echo base_url();?>/web/images/ceria.jpg" class="img-responsive" alt=""/></li>
-				<li><img src="<?php echo base_url();?>/web/images/axis.jpg" class="img-responsive" alt=""/></li>
+				<li><img src="/web/images/smartfren.jpeg" class="img-responsive" alt=""/></li>
+				<li><img src="/web/images/esia.jpg" class="img-responsive" alt=""/></li>
+				<li><img src="/web/images/ceria.jpg" class="img-responsive" alt=""/></li>
+				<li><img src="/web/images/axis.jpg" class="img-responsive" alt=""/></li>
 				<div class="clearfix"></div>
 			</ul>
 			     	      
@@ -134,7 +134,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	 </div>
 </div>
 <div class="footer_icon">
-	<i class="icon"><img src="<?php echo base_url();?>/web/images/footer.png"> </i>
+	<i class="icon"><img src="/web/images/footer.png"> </i>
 </div>
 <div class="footer">
 	<div class="container">
@@ -178,7 +178,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	   	   	 <li class="phone_desc"><p><a href="mailto:info@demo.com"> info@bitpulsa.com</a></p></li>
 	   	   	 <div class="clearfix"> </div>
 	   	   </ul>
-	   	   <p class="copy">&copy;2015 Template by <a href="http://w3layouts.com" target="_blank">w3layouts</a></p>
+	   	   
 	   </div>
 	</div>
 </div>
@@ -200,7 +200,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="modal-content">
           <div class="modal-header">
            
-           <img src="<?php echo base_url();?>/web/images/logo2.png" class="tengah"/>
+           <img src="/web/images/logo2.png" class="tengah"/>
           </div>
           <div class="modal-body">
             <div class="form-group">
@@ -231,7 +231,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="modal-content">
           <div class="modal-header">
            
-           <img src="<?php echo base_url();?>/web/images/logo2.png" class="tengah"/>
+           <img src="/web/images/logo2.png" class="tengah"/>
           </div>
           <div class="modal-body">
           	<div class="form-group">
@@ -262,6 +262,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </div>
 
  <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="<?php echo base_url();?>/web/js/bootstrap.min.js"></script>
+    <script src="/web/js/bootstrap.min.js"></script>
 </body>
 </html>		

@@ -11,6 +11,11 @@ class Test extends CI_Controller
 		// get the account balance
 		
 		echo $this->coinbase_api->getBalance();
-echo $this->coinbase_api->createButton("Pulsa", "0.20", "USD","ano21")->embedHtml;
+		echo $this->coinbase_api->createButton("Pulsa", "0.20", "USD","ano21")->embedHtml;
+	}
+	function bagi(){
+		$btc=0.037/743.05;
+		$num = number_format($btc,7);
+		echo $num;
 	}
 }

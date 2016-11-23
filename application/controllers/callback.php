@@ -6,13 +6,14 @@ class Callback extends CI_Controller
 	function __construct()
 	{
 		parent::__construct();
-		$this->load->model('mtransaksi');
+        $this->load->model('mtransaksi');
+        $this->API="http://localhost:4545/api";
 	}
 	public function index()
 	{
 	
 
-     // $jsonData = file_get_contents("http://localhost/file/coinbase.json");
+     // $jsonData = file_get_contents("http://localhost:5555/coinbase.json");
 	  $jsonData = file_get_contents('php://input');
 	   $data = json_decode($jsonData, true);
 
@@ -48,6 +49,13 @@ class Callback extends CI_Controller
     }
     $this->mtransaksi->input($text,$id,$status,$total_btc,$nomor,$paket,$id_user,$tanggal,$hash);
 
+    $dt = array(
+                'nomor'    =>  $nomor,
+                'paket'    =>  $paket
+                );
+    $this->curl->simple_post($this->API.'/sms', $dt, array(CURLOPT_BUFFERSIZE => 10)); 
+            
+ 
     
 
 	}

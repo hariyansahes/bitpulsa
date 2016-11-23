@@ -44,8 +44,9 @@
                                             $harga=$pa->harga;
                                             $rates = $this->coinbase_api->getExchangeRate();
                                              $harga_btc=round($rates->btc_to_usd ,2, PHP_ROUND_HALF_UP);
-                                             $btc=$harga/$harga_btc;
-                                             $bayar=round($btc,7, PHP_ROUND_HALF_UP);
+                                             $bt=$harga/$harga_btc;
+                                             $btc=number_format($bt,8);
+                                             $bayar=$btc;
                                              echo $bayar." BTC";
                                          ?></td>
                                        
